@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '1edd5563-fc64-4bfa-b8e8-78bbf53c2d0b'
   imageRepository: 'ljtvedtnrkkubernetesintro'
   containerRegistry: 'cvtest.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/backend/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/frontend/Dockerfile'
   tag: '$(Build.BuildId)'
   
   # Agent VM image name
